@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="text-align: center;">Student Admission Form</h1>
+    <br><br>
+    <form>
+        <h1 style="text-align: center;">Personal Information</h1>
+
+        <div class="row">
+            <div class="field">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name">
+            </div>
+
+            <div class="field">
+                <label for="middle-name">Middle Name</label>
+                <input type="text" id="middle-name" name="middle-name">
+            </div>
+
+            <div class="field">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+
+            <div class="field">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age">
+            </div>
+
+            <div class="field">
+            <label>Gender</label>
+            <div class="gender-group">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+        </div>
+
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="category">Category</label>
+                <select id="category" name="category">
+                    <option value="obc">OBC</option>
+                    <option value="open">Open</option>
+                    <option value="general">General</option>
+                    <option value="sc">SC</option>
+                    <option value="st">ST</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="nationality">Nationality</label>
+                <input type="text" id="nationality" name="nationality">
+            </div>
+
+            <div class="field">
+                <label for="bloodgroup">Blood Group</label>
+                <select id="bloodgroup" name="bloodgroup">
+                    <option value="">Select</option>
+                    <option>A+</option><option>A-</option>
+                    <option>B+</option><option>B-</option>
+                    <option>AB+</option><option>AB-</option>
+                    <option>O+</option><option>O-</option>
+                </select>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="aadhar">Aadhar Number</label>
+                <input type="number" id="aadhar" name="aadhar">
+            </div>
+
+            <div class="field">
+                <label for="mother-tongue">Mother Tongue</label>
+                <input type="text" id="mother-tongue" name="mother-tongue">
+            </div>
+        </div>
+        <br><br>
+
+
+        <h2 style="text-align: center;">Academic Details (10th & 12th)</h2>
+
+        <h3>10th Details</h3>
+
+        <div class="row">
+            <div class="field">
+                <label for="school10">School Name</label>
+                <input type="text" id="school10" name="school10">
+            </div>
+
+            <div class="field">
+                <label for="board10">10th Board</label>
+                <select id="board10" name="board10">
+                    <option value="">Select Board</option>
+                    <option value="cbse">CBSE</option>
+                    <option value="icse">ICSE</option>
+                    <option value="maharashtra">Maharashtra State Board</option>
+                    <option value="up">Uttar Pradesh State Board</option>
+                </select>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="pass10">Year of Passing (10th)</label>
+                <input type="number" id="pass10" name="pass10">
+            </div>
+
+            <div class="field">
+                <label for="percent10">Percentage/CGPA (10th)</label>
+                <input type="number" id="percent10" name="percent10">
+            </div>
+
+            <div class="field">
+                <label for="marks10">Upload 10th Marksheet</label>
+                <input type="file" id="marks10" name="marks10">
+            </div>
+        </div>
+        <br><br>
+
+
+        <h3>12th Details</h3>
+
+        <div class="row">
+            <div class="field">
+                <label for="school12">School Name</label>
+                <input type="text" id="school12" name="school12">
+            </div>
+
+            <div class="field">
+                <label for="board12">12th Board</label>
+                <select id="board12" name="board12">
+                    <option value="">Select Board</option>
+                    <option value="cbse">CBSE</option>
+                    <option value="icse">ICSE</option>
+                    <option value="maharashtra">Maharashtra State Board</option>
+                    <option value="up">Uttar Pradesh State Board</option>
+                </select>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="stream">Stream</label>
+                <select id="stream" name="stream">
+                    <option value="">Select Stream</option>
+                    <option value="science">Science</option>
+                    <option value="commerce">Commerce</option>
+                    <option value="arts">Arts</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="pass12">Year of Passing (12th)</label>
+                <input type="number" id="pass12" name="pass12">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="percent12">Percentage/CGPA (12th)</label>
+                <input type="number" id="percent12" name="percent12">
+            </div>
+
+            <div class="field">
+                <label for="marks12">Upload 12th Marksheet</label>
+                <input type="file" id="marks12" name="marks12">
+            </div>
+        </div>
+        <br><br>
+
+
+        <h2 style="text-align: center;">Parent / Guardian Details</h2>
+
+        <div class="row">
+            <div class="field">
+                <label for="fathername">Father Name</label>
+                <input type="text" id="fathername" name="fathername">
+            </div>
+
+            <div class="field">
+                <label for="fatherjob">Father Occupation</label>
+                <input type="text" id="fatherjob" name="fatherjob">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="mothername">Mother Name</label>
+                <input type="text" id="mothername" name="mothername">
+            </div>
+
+            <div class="field">
+                <label for="motherjob">Mother Occupation</label>
+                <input type="text" id="motherjob" name="motherjob">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="parentmobile">Parent Mobile Number</label>
+                <input type="tel" id="parentmobile" name="parentmobile">
+            </div>
+
+            <div class="field">
+                <label for="income">Annual Family Income</label>
+                <input type="number" id="income" name="income">
+            </div>
+        </div>
+        <br><br>
+
+
+        <h1 style="text-align: center;">Contact Information</h1>
+
+        <div class="row">
+            <div class="field">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile">
+            </div>
+
+            <div class="field">
+                <label for="altmobile">Alternate Mobile Number</label>
+                <input type="tel" id="altmobile" name="altmobile">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city">
+            </div>
+
+            <div class="field">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state">
+            </div>
+
+            <div class="field">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field">
+                <label for="pincode">PIN Code</label>
+                <input type="number" id="pincode" name="pincode">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="field address-field">
+                <label for="address">Current Address</label>
+                <textarea id="address" name="address"></textarea>
+            </div>
+        </div>
+        <br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+</html>
